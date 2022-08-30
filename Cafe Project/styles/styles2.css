@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+:root{
+    background-color: #A9BA9D;
+    text-decoration-color: white;
+    font-size: 5rem;
+    --h2-font:var(--h2-font) 2.25rem;
+    --p-font:var(--p-font) 0.9rem;
+
+}
+.topnav {
+    display: flex;
+}
+.topnav a{
+    font-size: 14;
+    padding: 10px 20px;
+    font-weight: 500;  
+}
+.topnav a:hover{
+    color: var(--main-color);
+    transition: 4s;
+
+}
